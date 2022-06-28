@@ -10,12 +10,16 @@ authors:
     corresponding: true # (This is how to denote the corresponding author)
     orcid: 0000-0001-7898-0502 
     affiliation: 1
-  - name: Author Without ORCID
+  - name: Urs Kober 
     affiliation: 1
-  - name: Author with no affiliation
+  - name: Christian Schwarz 
+    affiliation: 1
+  - name: Dirk Habich
+    affiliation: 1
+  - name: Wolfgang Lehner
     affiliation: 1
 affiliations:
- - name: Lyman Spitzer, Jr. Fellow, Princeton University, USA
+ - name: TU Dresden, Germany
    index: 1
  - name: Institution Name, Country
    index: 2
