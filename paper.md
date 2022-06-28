@@ -43,12 +43,11 @@ parallel capabilities of GPUs to speed up the compacting operation is of great i
 `SPACE` is a GPU centric C++ software for compaction experiments. It consists of different data generators and a flexible experiment framework.
 8 different `SPACE` Variants can be compared against the NVIDIA supplied CUB library for GPU compaction. Data type, percentage of selected data and data distrubtions are modifiable as execution parameter for the generated C++ binary. Different Python runscripts for performing sets of experiments and reproducing the experiments from our paper are provided. Output of experiments is written as csv files. For visualizing the results Python scripts based on Matplotlib are also provided. 
 
-`SPACE` was designed to allow researchers to evaluate compaction algorithms against a solid baseline across a variety of input data. It can be modified by adding additional compaction algorithms. It outperforms the current state-of-the-art algorithm `[@cub]`. Research about compaction has been performed by `[@bakunas2017efficient]`, who classify compaction on GPU into the two categories "prefix sum based" and "atomic based". `SPACE` is a pre fix sum based approach.
+`SPACE` was designed to allow researchers to evaluate compaction algorithms against a solid baseline across a variety of input data. It can be modified by adding additional compaction algorithms. It outperforms the current state-of-the-art algorithm . Research about compaction has been performed by , who classify compaction on GPU into the two categories "prefix sum based" and "atomic based". `SPACE` is a pre fix sum based approach.
 
 # Acknowledgements
 
 This work is funded by the German Research Foundation within the RTG 1907 (RoSI) as well as by the European Union's Horizon 2020 research and innovative program under grant agreement number 957407 (DAPHNE project).
 
 # References
-`[@cub]`
-`[@bakunas2017efficient]`
+
