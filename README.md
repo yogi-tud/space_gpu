@@ -13,7 +13,13 @@ authors:
     corresponding: true
   - name: Urs Kober 
     affiliation: TU Dresden
-date: 13 August 2017
+  - name: Christian Schwarz 
+    affiliation: TU Dresden
+  - name: Dirk Habich
+    affiliation: TU Dresden
+  - name: Wolfgang Lehner
+    affiliation: TU Dresden
+date: 28 June 2022
 bibliography: bib.bib
 
 # Summary
@@ -36,3 +42,5 @@ parallel capabilities of GPUs to speed up the compacting operation is of great i
 This work is funded by the German Research Foundation within the RTG 1907 (RoSI) as well as by the European Union's Horizon 2020 research and innovative program under grant agreement number 957407 (DAPHNE project).
 
 # References
+`[@cub]`
+`[@bakunas2017efficient]`
