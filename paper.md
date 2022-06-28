@@ -1,13 +1,11 @@
 ---
 title: 'Accelerating Parallel Operation for Compacting Selected Elements on GPUs'
-
 tags:
   - Compacting
   - GPU
   - dynamics
   - Optimization
   - Parallel
-
 authors:
   - name: Johannes Fett
     orcid: 0000-0001-7898-0502 
@@ -21,13 +19,10 @@ authors:
     affiliation: 1
   - name: Wolfgang Lehner
     affiliation: 1
-    
 affiliations:
  - name: TU Dresden, Germany
-   index: 1
-   
+   index: 1 
 date: 28 June 2022
-
 bibliography: bib.bib
 
 # Summary
