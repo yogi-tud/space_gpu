@@ -7,21 +7,23 @@ tags:
   - Optimization
   - Parallel
 authors:
-  - name: Johannes Fett
-    orcid: 0000-0001-7898-0502 
-    affiliation: 1
-    corresponding: true
-  - name: Urs Kober 
-    affiliation: 1
-  - name: Christian Schwarz 
-    affiliation: 1
-  - name: Dirk Habich
-    affiliation: 1
-  - name: Wolfgang Lehner
-    affiliation: 1
+  - name: Adrian M. Price-Whelan
+    orcid: 0000-0000-0000-0000
+    equal-contrib: true
+    affiliation: "1, 2" # (Multiple affiliations must be quoted)
+  - name: Author Without ORCID
+    equal-contrib: true # (This is how you can denote equal contributions between multiple authors)
+    affiliation: 2
+  - name: Author with no affiliation
+    corresponding: true # (This is how to denote the corresponding author)
+    affiliation: 3
 affiliations:
- - name: TU Dresden, Germany
-   index: 1 
+ - name: Lyman Spitzer, Jr. Fellow, Princeton University, USA
+   index: 1
+ - name: Institution Name, Country
+   index: 2
+ - name: Independent Researcher, Country
+   index: 3
 date: 28 June 2022
 bibliography: bib.bib
 
