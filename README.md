@@ -1,5 +1,6 @@
 ---
 title: 'Accelerating Parallel Operation for Compacting Selected Elements on GPUs'
+
 tags:
   - Compacting
   - GPU
