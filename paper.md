@@ -1,22 +1,19 @@
 ---
 title: 'Gala: A Python package for galactic dynamics'
 tags:
-  - Python
-  - astronomy
-  - dynamics
-  - galactic dynamics
-  - milky way
+  - Compacting
+  - GPU
+  - Optimization
+  - Parallel
 authors:
-  - name: Adrian M. Price-Whelan
-    orcid: 0000-0000-0000-0000
-    equal-contrib: true
-    affiliation: "1, 2" # (Multiple affiliations must be quoted)
-  - name: Author Without ORCID
-    equal-contrib: true # (This is how you can denote equal contributions between multiple authors)
-    affiliation: 2
-  - name: Author with no affiliation
+  - name: Johannes Fett
     corresponding: true # (This is how to denote the corresponding author)
-    affiliation: 3
+    orcid: 0000-0001-7898-0502 
+    affiliation: 1
+  - name: Author Without ORCID
+    affiliation: 1
+  - name: Author with no affiliation
+    affiliation: 1
 affiliations:
  - name: Lyman Spitzer, Jr. Fellow, Princeton University, USA
    index: 1
