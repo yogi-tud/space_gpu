@@ -31,7 +31,7 @@ Compacting is a common and heavily used operation in different application areas
 artificial intelligence. The task of this operation is to produce a smaller output array by writing selected elements of an input array contiguously
 back to a new output array. The selected elements are usually defined by means of a bit mask. With the always increasing amount of data
 elements to be processed in the different application areas, better performance becomes a key factor for this operation. Thus, exploiting the
-parallel capabilities of GPUs to speed up the compacting operation is of great interest. We introduce smart partitioning for GPU compaction (`SPACE` ) as a set of different optimization approaches for GPUs. An detailed guide of setting up and using the software is found in the file overview.pdf. paper.pdf contains the published Euro-par 2022 paper, in which `SPACE`  is described in great detail.
+parallel capabilities of GPUs to speed up the compacting operation is of great interest. We introduce smart partitioning for GPU compaction (`SPACE` ) as a set of different optimization approaches for GPUs. A detailed guide about setting up and using the software is found in the file overview.pdf. paper.pdf contains the published Euro-par 2022 paper, in which `SPACE`  is described in great detail.
 
 
 # Statement of need
