@@ -9,16 +9,19 @@ tags:
 authors:
   - name: Johannes Fett
     orcid: 0000-0001-7898-0502 
-    affiliation: TU Dresden
+    affiliation: 1
     corresponding: true
   - name: Urs Kober 
-    affiliation: TU Dresden
+    affiliation: 1
   - name: Christian Schwarz 
-    affiliation: TU Dresden
+    affiliation: 1
   - name: Dirk Habich
-    affiliation: TU Dresden
+    affiliation: 1
   - name: Wolfgang Lehner
-    affiliation: TU Dresden
+    affiliation: 1
+affiliations:
+ - name: TU Dresden, Germany
+   index: 1
 date: 28 June 2022
 bibliography: bib.bib
 
