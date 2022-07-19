@@ -12,7 +12,7 @@ Every function starts with bench and a unique ascending number followed by a sho
 Example:
 bench1_base_variant is the first SPACE algo which is using a basic memory access pattern without any optimizations.
 
-To add another algorithm the following steps need to be perfomed.
+To add another algorithm the following steps need to be performed.
 
 Add a new benchmark function with the same signature as the already present ones (to simplify adding new algorithms).
 d_input is the input data array in gpu memory.
