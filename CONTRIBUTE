@@ -36,8 +36,10 @@ If you run the benchmark suite, now your own algorithms will be included.
 If you wish to add your algorithm to SPACE, create a merge request. Make sure that the CPU side validation of results completes without errors.
 
 **Report issues or problems**
+
 If you encounter bugs or problems, feel free to create a github issue.
 Suggestions for addtional features can be creates as issue with the tag enhancement.
 
 **Support**
+
 In case you need support setting up or extending SPACE write me an email: Johannes.fett@tu-dresden.de
