@@ -31,3 +31,4 @@ Examples:
 This example runs with a uniform mask distribution and 25% selected elements. The input column is made of 1024 MiB uint32 elements. Output files are named with A100 as device and all algorithms will be peformed.
 
 In CONTRIBUTE a guide how to contribute to the software can be found.
+[contribute](https://github.com/yogi-tud/space_gpu/blob/main/CONTRIBUTE.md)
