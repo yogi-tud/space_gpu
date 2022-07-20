@@ -1,4 +1,4 @@
-<strong>How to contribute?</strong>
+##How to contribute?
 
 This guide gives you information that aims to enable contributions to SPACE.
 In Case you want to add a novel gpu compaction algorithm and compare it both to SPACE and Nvidia CUB several steps need to be done.
