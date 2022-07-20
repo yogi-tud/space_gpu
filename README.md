@@ -1,7 +1,7 @@
 # space_gpu
 
-`SPACE` is a GPU centric C++ software for compaction experiments. It consists of data generators and a flexible experiment framework. Addtionally, scripts to visualize experiments are provided. For detailed information about compiling and running `SPACE`, see overview.pdf.
-[overview.pdf](https://github.com/yogi-tud/space_gpu/blob/main/overview.pdf)
+`SPACE` is a GPU centric C++ software for compaction experiments. It consists of data generators and a flexible experiment framework. Addtionally, scripts to visualize experiments are provided. For detailed information about compiling and running `SPACE`, see 
+[overview.pdf](https://github.com/yogi-tud/space_gpu/blob/main/overview.pdf).
 
 The binary takes a number of different runtime parameters that control the experiment.
 See run_full.py for a comprehensive example running multiple experiments.
