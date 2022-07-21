@@ -39,7 +39,7 @@ If you wish to add your algorithm to SPACE, create a merge request. Make sure th
 **Report issues or problems**
 
 If you encounter bugs or problems, feel free to create a github issue.
-Suggestions for addtional features can be creates as issue with the tag enhancement.
+Suggestions for addtional features can be created as issue with the tag enhancement.
 
 **Support**
 
