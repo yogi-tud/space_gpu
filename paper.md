@@ -27,19 +27,19 @@ bibliography: paper.bib
 
 # Summary
 
-Compacting is a common and heavily used operation in different application areas like statistics, database systems, simulations and
-artificial intelligence. The task of this operation is to produce a smaller output array by writing selected elements of an input array contiguously
-back to a new output array. The selected elements are usually defined by means of a bit mask. With the always increasing amount of data
-elements to be processed in the different application areas, better performance becomes a key factor for this operation. Thus, exploiting the
-parallel capabilities of GPUs to speed up the compacting operation is of great interest. We introduce smart partitioning for GPU compaction (`SPACE` ) as a set of different optimization approaches for GPUs. A detailed guide about setting up and using the software is found in [@overview]. [@space] contains the published Euro-par 2022 paper, in which `SPACE` is described in great detail.
+Compacting is a common and heavily used operation in different application areas such as statistics, database systems, simulations, and
+artificial intelligence. The task of this operation is to write selected elements of an input array contiguously
+back to a new output array, producing a smaller (i.e., compact) array. The selected elements are usually defined by means of a bit mask. With the always increasing amount of data
+to be processed in different application areas, better performance becomes a key factor for this operation. Thus, exploiting the
+parallel capabilities of GPUs to speed up the compacting operation is of great interest. We introduce smart partitioning for GPU compaction (`SPACE` ) as a set of different optimization approaches for GPUs. A detailed guide about setting up and using the software is found in @overview. @space is a preprint of the published Euro-Par 2022 paper, in which `SPACE` is described in great detail.
 
 
 # Statement of need
 
-`SPACE` is a GPU centric C++ software for compaction experiments. It consists of different data generators and a flexible experiment framework.
-8 different `SPACE` Variants can be compared against the NVIDIA supplied CUB library for GPU compaction. Data type, percentage of selected data and data distrubtions are modifiable as execution parameter for the generated C++ binary. Different Python runscripts for performing sets of experiments and reproducing the experiments from our paper are provided. Output of experiments is written as csv files. For visualizing the results Python scripts based on Matplotlib are also provided. 
+`SPACE` is GPU-centric C++ software for compaction experiments. It consists of different data generators and a flexible experiment framework.
+Eight different `SPACE` variants can be compared against the NVIDIA-supplied CUB library for GPU compaction. Data type, percentage of selected data, and data distributions are modifiable as execution parameters for the generated C++ binary. Different Python runscripts for performing sets of experiments and reproducing the experiments from our paper (@space) are provided. The output of experiments is written in csv files. For visualizing the results, Python scripts based on Matplotlib are also provided. 
 
-`SPACE` was designed to allow researchers to evaluate compaction algorithms against a solid baseline across a variety of input data. It can be modified by adding additional compaction algorithms. It outperforms the current state-of-the-art algorithm [@cub]. Research about compaction has been performed by [@bakunas2017efficient], who classify compaction on GPU into the two categories "prefix sum based" and "atomic based". `SPACE` is a prefix sum based approach.
+`SPACE` was designed to allow researchers to evaluate compaction algorithms against a solid baseline across a variety of input data. It can be modified by adding additional compaction algorithms. It outperforms the current state-of-the-art algorithm [@cub]. Research about compaction has been performed by @bakunas2017efficient, who classify compaction on GPU into the two categories: "prefix sum based" and "atomic based". `SPACE` is a prefix sum based approach.
 
 
 # Acknowledgements
