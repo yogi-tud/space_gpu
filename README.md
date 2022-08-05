@@ -32,3 +32,15 @@ This example runs with a uniform mask distribution and 25% selected elements. Th
 
 In CONTRIBUTE a guide how to contribute to the software can be found.
 [contribute](https://github.com/yogi-tud/space_gpu/blob/main/CONTRIBUTE.md)
+
+Markdown:
+[![DOI](https://joss.theoj.org/papers/10.21105/joss.04589/status.svg)](https://doi.org/10.21105/joss.04589)
+
+HTML:
+<a style="border-width:0" href="https://doi.org/10.21105/joss.04589">
+  <img src="https://joss.theoj.org/papers/10.21105/joss.04589/status.svg" alt="DOI badge" >
+</a>
+
+reStructuredText:
+.. image:: https://joss.theoj.org/papers/10.21105/joss.04589/status.svg
+   :target: https://doi.org/10.21105/joss.04589
